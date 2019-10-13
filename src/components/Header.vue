@@ -72,8 +72,8 @@ export default {
   display: flex;
   background-color:#333;
 }
-.logo{color:#fff;line-height:44px;flex: 1;box-sizing: border-box;padding-left: 60px;cursor: pointer;}
-.nav{flex: 2}
+.logo{color:#fff;line-height:44px;flex: 1;box-sizing: border-box;padding-left: 60px;cursor: pointer;min-width: 320px;}
+.nav{flex: 2;min-width: 520px;}
 .phone{flex:1;color:#13BFB4;line-height: 44px;;font-size: 18px;}
 .hello img{vertical-align: middle;margin:0 10px;}
 .phone img {width: 27px;height:27px;vertical-align: middle;}
